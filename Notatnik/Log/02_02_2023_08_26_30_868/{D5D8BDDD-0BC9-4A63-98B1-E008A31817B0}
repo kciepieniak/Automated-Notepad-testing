@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="stacktext" type="S" value="zwroc_plik_zapisz_jako"/>
+			<Prp name="unit id" type="I" value="3"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="stacktext" type="S" value="zwroc_plik_zapisz_jako"/>
+			<Prp name="unit id" type="I" value="3"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44959.3101139815"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="659"/>
+					<Prp name="object right" type="I" value="1090"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.panel"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="10"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Oto przykladowy tekst dla potrzeb testu automatycznego.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.panel&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-01 15.59.46.273371 - Notepad++&quot;).Panel(&quot;Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3517991898"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="ob_plik_zapisz_jako"/>
+			<Prp name="unit id" type="I" value="4"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3519907176"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44959.3101122801"/>
+					<Prp name="click point x" type="I" value="550"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="659"/>
+					<Prp name="object right" type="I" value="1090"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.panel"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="372"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="10"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (540, 270) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.panel&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-01 15.59.46.273371 - Notepad++&quot;).Panel(&quot;Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3517799074"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44959.3101337963"/>
+					<Prp name="click point x" type="I" value="24"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="object right" type="I" value="41"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.menuitemPlik"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="8"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (16, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.menubarAplikacja.menuitemPlik&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-01 15.59.46.273371 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Plik&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3518009954"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="The object &quot;popupPlik&quot; does not exist."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;MenuItem&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;notepad_.&amp;#8203;&lt;a href=&quot;lnamemapping://{0AC7E908-15DC-4C27-A7BD-9F997204CB87}.Aliases.notepad_.popupPlik&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;popupPlik&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;On the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt; tab, check if the object existed during the test run.&lt;/li&gt;&lt;li&gt;View the search criteria for the object in the &lt;a href=&quot;lnamemapping://{0AC7E908-15DC-4C27-A7BD-9F997204CB87}.Aliases.notepad_.popupPlik&quot;&gt;NameMapping editor&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3519201157"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="operacje_na_tekscie"/>
+			<Prp name="unit id" type="I" value="5"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="operacje_na_tekscie"/>
+			<Prp name="unit id" type="I" value="5"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="The object &quot;popupPlik.MenuItem&quot; does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;popupPlik.MenuItem&quot; object that does not exist."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.3519223148"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="message" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Program Files\Notepad++\notepad++.exe&quot;. New instances will not be launched."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44959.351768993"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 3" type="S" value="{890597D4-49B0-4A87-A762-EF69992CB4F5}"/>
+			<Prp name="unit 5" type="S" value="{C6117036-E70F-4411-8E60-4EE6BC0C6324}"/>
+			<Prp name="unit 1" type="S" value="{D019B185-C5C2-407C-B159-D0B7E36A21A4}"/>
+			<Prp name="unit 0" type="S" value="{F8DCCB9D-6DEC-456D-B0A3-EC09705F0D46}"/>
+			<Prp name="unit 4" type="S" value="{2EB5FE79-5C4D-4673-A93A-C3A9C0047DCF}"/>
+			<Prp name="unit 2" type="S" value="{F01005DC-D350-4955-85A0-58BD7CF108E8}"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

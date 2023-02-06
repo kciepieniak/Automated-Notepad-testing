@@ -1,0 +1,24 @@
+﻿import menu_edycja
+
+def rozwin_menu_edycja():
+  return menu_edycja.menu_edycja().Click
+  
+def edycja_cofnij():
+  rozwin_menu_edycja()
+  return menu_edycja.ob_edycja_cofnij().Click()
+  
+def edycja_kopiuj():
+  rozwin_menu_edycja()
+  return menu_edycja.ob_edycja_kopiuj().Click()
+  
+def edycja_usun():
+  rozwin_menu_edycja()
+  return menu_edycja.ob_edycja_usun().Click()
+  
+def edycja_wklej():
+  rozwin_menu_edycja()
+  return menu_edycja.ob_edycja_wklej().Click()
+  
+def edycja_zaznacz_wszystko():
+  rozwin_menu_edycja()
+  return menu_edycja.ob_edycja_zaznacz_wszystko().Click()

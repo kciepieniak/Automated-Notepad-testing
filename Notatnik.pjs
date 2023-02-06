@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{A7DDD6DE-512A-4D2F-8877-52DB71A0C5B9}">
+	<children>
+		<child name="Notatnik" key="{973381F8-64FD-4B40-A723-09A8FFE594A6}" path="Notatnik\Notatnik.mds" />
+	</children>
+	<testItems key="{56B7B7B1-3A41-410C-A7C7-3010CA3A383D}">
+		<children>
+			<testItem key="{973381F8-64FD-4B40-A723-09A8FFE594A6}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{596660C5-3F73-4F53-8405-DE89E7A5F594}" />
+	<analysis key="{50E72D8C-0AE4-4F3C-BE30-6400E1736308}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

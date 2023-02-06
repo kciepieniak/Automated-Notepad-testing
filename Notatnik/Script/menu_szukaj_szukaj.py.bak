@@ -1,0 +1,17 @@
+﻿import menu_szukaj
+import ob_szukaj_szukaj
+
+
+def zwroc_szukaj_szukaj(): # rozwija menu Szukaj i klika w Szukaj
+  menu_szukaj.rozwin_szukaj()
+  return ob_szukaj_szukaj.ob_szukaj_szukaj().Click()
+  
+def wpisz_fraze_w_szukaj(): #klika w szukaj/szukaj i wprowadza tekst w oknie
+  zwroc_szukaj_szukaj()
+  return Aliases.notepad_.Dialog("Szukaj").ComboBox("Szukany tekst:").Edit("Szukany tekst:").SetText('przykladowy')
+
+def zwroc_znajdz_nastepny(): #klika w znajdz nastepny
+  return ob_szukaj_szukaj.ob_znajdz_nastepny().Click()
+
+def zamknij_szukaj_szukaj(): #zamyka okno szukaj_szukaj
+  return ob_szukaj_szukaj.ob_przycisk_zamknij().Click()

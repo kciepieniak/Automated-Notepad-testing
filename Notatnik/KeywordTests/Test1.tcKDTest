@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{C5FE4B17-9F99-4A49-837C-3DFBFDDE7294}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="szukaj_frazy" Unit="Test_2_szukaj" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{5E8B4F9C-AE8E-431C-9430-1598DA9A47D5}" />
+</Root>

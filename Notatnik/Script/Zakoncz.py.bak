@@ -1,0 +1,6 @@
+﻿import Uruchom
+
+def zakoncz():
+  Uruchom.uruchom()
+  
+  Uruchom.rozwin_menu_plik()

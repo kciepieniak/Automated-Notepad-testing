@@ -1,0 +1,2 @@
+﻿def ob_menu_plik():
+  return Aliases.notepad_.Form("nowy 1 - Notepad++").MenuBar("Aplikacja").MenuItem("Plik")

@@ -1,0 +1,16 @@
+﻿import menu_plik
+import plik_nowy
+import plik_zakoncz
+
+
+def rozwin_menu_plik():
+  return menu_plik.menu_plik().Click()
+  
+def uruchom_plik_nowy():
+  return plik_nowy.plik_nowy().Click()
+  
+def uruchom_plik_zakoncz():
+  return plik_zakoncz.plik_zakoncz().Click()
+  
+
+  

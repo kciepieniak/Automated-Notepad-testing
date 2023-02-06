@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="111"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5958666204"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="100"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6375337616"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="20"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5958278819"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374952431"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="17"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6372356713"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 3744."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files\Notepad++\notepad++.exe&quot; started."/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Dialog(&quot;Szukaj&quot;).ComboBox(&quot;Szukany tekst:&quot;).Edit(&quot;Szukany tekst:&quot;)"/>
+					<Prp name="object left" type="I" value="125"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="455"/>
+					<Prp name="datetime" type="D" value="44963.5956685301"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="82"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="67"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373354282"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Dialog(&quot;Szukaj&quot;).ComboBox(&quot;Szukany tekst:&quot;).Edit(&quot;Szukany tekst:&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'przykladowy' was entered in the text editor."/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5958790509"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6375465509"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="21"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Dialog(&quot;Szukaj&quot;).Button(&quot;Znajdź następny&quot;)"/>
+					<Prp name="object left" type="I" value="508"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="75"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="645"/>
+					<Prp name="datetime" type="D" value="44963.5956807523"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="87"/>
+					<Prp name="click point x" type="I" value="576"/>
+					<Prp name="object top" type="I" value="64"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.637348125"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A click at point (68, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Dialog(&quot;Szukaj&quot;).Button(&quot;Znajdź następny&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Cofnij\tCtrl+Z or Alt+Backspace&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="14"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5958921296"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="25"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6375595255"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Cofnij\tCtrl+Z or Alt+Backspace&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="22"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="111"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5958409028"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="100"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6375083796"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="18"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5957504861"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.637417963"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="11"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5958535532"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6375209143"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="19"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.panel"/>
+					<Prp name="object left" type="I" value="10"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1090"/>
+					<Prp name="datetime" type="D" value="44963.5955964815"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="659"/>
+					<Prp name="click point x" type="I" value="550"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6372638542"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (540, 270) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.panel&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).Panel(&quot;Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Kopiuj\tCtrl+C or Ctrl+INS&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="89"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5957640972"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="100"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374314583"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Kopiuj\tCtrl+C or Ctrl+INS&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="12"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Zaznacz wszystko\tCtrl+A&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="155"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5957379051"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="144"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374051505"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Zaznacz wszystko\tCtrl+A&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="10"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.595724456"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373918287"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="9"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Dialog(&quot;Szukaj&quot;).TitleBar(0).Button(&quot;Zamknij&quot;)"/>
+					<Prp name="object left" type="I" value="646"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="datetime" type="D" value="44963.5956936921"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="31"/>
+					<Prp name="click point x" type="I" value="663"/>
+					<Prp name="object top" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373610532"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A click at point (17, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Dialog(&quot;Szukaj&quot;).TitleBar(0).Button(&quot;Zamknij&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="7"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="111"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5958152546"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="100"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374825"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Wklej\tCtrl+V or Shift+INS&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="16"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.panel"/>
+					<Prp name="object left" type="I" value="10"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1090"/>
+					<Prp name="datetime" type="D" value="44963.5956089352"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="659"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6372952778"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Oto przykladowy tekst dla potrzeb testu automatycznego.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.panel&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).Panel(&quot;Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{D019B185-C5C2-407C-B159-D0B7E36A21A4}"/>
+			<Prp name="unit 0" type="S" value="{F8DCCB9D-6DEC-456D-B0A3-EC09705F0D46}"/>
+			<Prp name="unit 4" type="S" value="{4DDA69E5-A1DD-4B44-A464-0750C0004EB7}"/>
+			<Prp name="unit 5" type="S" value="{388A8217-6CA4-4BC7-8C57-74AC125CBF0E}"/>
+			<Prp name="unit 2" type="S" value="{F01005DC-D350-4955-85A0-58BD7CF108E8}"/>
+			<Prp name="unit 3" type="S" value="{B9A788C7-93FB-42BA-9CFB-1385E4F877E5}"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Edycja&quot;).MenuItem(&quot;Wyczyść\tDEL&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="133"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="420"/>
+					<Prp name="datetime" type="D" value="44963.5957896181"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="144"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="object top" type="I" value="122"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374571065"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (208, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Edycja&quot;).MenuItem(&quot;Wyczyść\tDEL&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="14"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Szukaj&quot;)"/>
+					<Prp name="object left" type="I" value="89"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="136"/>
+					<Prp name="datetime" type="D" value="44963.5956409491"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="112"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373083102"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Szukaj&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.panel"/>
+					<Prp name="object left" type="I" value="10"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1090"/>
+					<Prp name="datetime" type="D" value="44963.5957063657"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="659"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373772569"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'podmieniony' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.notepad_.formNowy1Notepad.panel&#xA;(Sys.Process(&quot;notepad++&quot;).Form(&quot;C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).Panel(&quot;Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto podmieniony tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.Oto przykladowy tekst dla potrzeb testu automatycznego.&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="8"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5957766319"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374441088"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="13"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.formNowy1Notepad.menubarAplikacja.MenuItem(&quot;Edycja&quot;)"/>
+					<Prp name="object left" type="I" value="41"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="40"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="44963.5958023032"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="50"/>
+					<Prp name="click point x" type="I" value="65"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6374696759"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Form(&quot;*C:\\Users\\k.ciepieniak\\Documents\\nazwa_pliku 2023-02-02 16.16.24 - Notepad++&quot;).MenuBar(&quot;Aplikacja&quot;).MenuItem(&quot;Edycja&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="15"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.notepad_.Popup(&quot;Szukaj&quot;).MenuItem(&quot;Szukaj...\tCtrl+F&quot;)"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="14"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="492"/>
+					<Prp name="datetime" type="D" value="44963.5956543171"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="25"/>
+					<Prp name="click point x" type="I" value="247"/>
+					<Prp name="object top" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44963.6373216782"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A click at point (244, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;notepad++&quot;).Popup(&quot;Szukaj&quot;).MenuItem(&quot;Szukaj...\tCtrl+F&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

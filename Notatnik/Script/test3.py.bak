@@ -1,0 +1,9 @@
+﻿import op_szukaj
+import wpisz_fraze
+import uruchom_zamknij
+import wpisz_tekst_glowny
+
+def szukaj():
+  uruchom_zamknij.uruchom()
+  wpisz_tekst_glowny.wpisz_tekst_glowny()
+  

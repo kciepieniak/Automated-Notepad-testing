@@ -1,0 +1,6 @@
+﻿from uruchom_zamknij import uruchom
+from uruchom_zamknij import zamknij
+
+def zakoncz():
+  uruchom()
+  zamknij()

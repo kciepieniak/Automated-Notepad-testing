@@ -1,0 +1,11 @@
+﻿import Obiekty
+
+def uruchom():
+  return TestedApps.notepad.Run()
+
+def rozwin_menu_plik():
+  return Obiekty.plik().Click()
+  
+def uruchom_plik_zakoncz():
+  return Obiekty.plik_zakoncz().Click()
+  

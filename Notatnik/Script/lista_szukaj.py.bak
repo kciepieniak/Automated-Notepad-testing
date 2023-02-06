@@ -1,0 +1,9 @@
+﻿import menu_szukaj
+import szukaj_szukaj
+
+def uruchom_szukaj(): # rozwija menu Szukaj
+  return menu_szukaj.menu_szukaj_edytowane().Click()
+  
+def uruchom_szukaj_szukaj(): # rozwija menu Szukaj i klika w Szukaj
+  uruchom_szukaj()
+  return szukaj_szukaj.szukaj_szukaj().Click()

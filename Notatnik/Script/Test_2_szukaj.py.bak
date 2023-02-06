@@ -1,0 +1,10 @@
+﻿import lista_szukaj
+import uruchom_zamknij
+import op_szukaj_szukaj
+
+def szukaj_frazy():
+  uruchom_zamknij.uruchom()                    #uruchamia aplikacje
+  wpisz_tekst_glowny.wpisz_tekst_glowny()      #wpisuje tekst w oknie glownym 
+  op_szukaj_szukaj.uruchom_znajdz_nastepny()   #wpisuje fraze w szukaj
+
+  

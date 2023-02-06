@@ -1,0 +1,5 @@
+﻿def uruchom():
+  return TestedApps.notepad.Run()
+  
+def zamknij():
+  return TestedApps.notepad.Close()

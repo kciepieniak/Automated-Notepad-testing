@@ -1,0 +1,14 @@
+﻿from uruchom_zamknij import uruchom
+from uruchom_zamknij import zamknij
+from menu_plik import uruchom_plik_nowy
+from menu_plik import uruchom_plik_zakoncz
+from menu_plik import rozwin_menu_plik
+
+def zakoncz():
+  uruchom()
+  rozwin_menu_plik()
+  uruchom_plik_nowy()
+  zamknij()
+  uruchom()
+  rozwin_menu_plik()
+  uruchom_plik_zakoncz()

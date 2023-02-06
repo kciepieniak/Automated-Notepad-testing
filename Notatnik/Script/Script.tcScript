@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Obiekty">
+			<folder name="lista_plik">
+				<child name="ob_menu_plik" key="{32F4E00F-3A61-40DF-B07C-43B1A44D33C3}" path="ob_menu_plik.py" />
+				<child name="ob_plik_zakoncz" key="{E0820964-B35C-4C8D-BD7A-3BCE79A93093}" path="ob_plik_zakoncz.py" />
+				<child name="ob_plik_nowy" key="{7EC75352-9B85-46F6-8F1A-CC541C629E28}" path="ob_plik_nowy.py" />
+				<child name="ob_plik_zapisz_jako" key="{2EB5FE79-5C4D-4673-A93A-C3A9C0047DCF}" path="ob_plik_zapisz_jako.py" />
+			</folder>
+			<folder name="lista_szukaj">
+				<child name="ob_menu_szukaj" key="{9C476A50-E27D-4BC7-BE41-F8E5E4CD79BB}" path="ob_menu_szukaj.py" />
+				<child name="ob_szukaj_szukaj" key="{34403C9B-484F-4F4F-8C91-919A77309CFD}" path="ob_szukaj_szukaj.py" />
+			</folder>
+			<folder name="lista_edycja">
+				<child name="ob_menu_edycja" key="{9F995F4D-5F8C-488F-95C9-44FB712C0D2D}" path="ob_menu_edycja.py" />
+			</folder>
+			<child name="ob_okno_glowne" key="{EAACB485-59A0-4238-B643-8FE9127CDCCB}" path="ob_okno_glowne.py" />
+		</folder>
+		<folder name="Metody">
+			<folder name="main">
+				<child name="uruchom_zamknij" key="{F8DCCB9D-6DEC-456D-B0A3-EC09705F0D46}" path="uruchom_zamknij.py" />
+			</folder>
+			<folder name="toolbar">
+				<folder name="menu_plik">
+					<child name="menu_plik" key="{890597D4-49B0-4A87-A762-EF69992CB4F5}" path="menu_plik.py" />
+					<child name="menu_plik_zapisz_jako" key="{5E67594C-C471-494D-9BD3-A7A3E886D357}" path="menu_plik_zapisz_jako.py" />
+				</folder>
+				<folder name="menu_szukaj">
+					<folder name="szukaj">
+						<child name="menu_szukaj_szukaj" key="{4DDA69E5-A1DD-4B44-A464-0750C0004EB7}" path="menu_szukaj_szukaj.py" />
+					</folder>
+					<child name="menu_szukaj" key="{B9A788C7-93FB-42BA-9CFB-1385E4F877E5}" path="menu_szukaj.py" />
+				</folder>
+				<folder name="menu_edycja">
+					<child name="menu_edycja" key="{388A8217-6CA4-4BC7-8C57-74AC125CBF0E}" path="menu_edycja.py" />
+				</folder>
+			</folder>
+			<folder name="okno">
+				<child name="zwroc_tekst_glowny" key="{D019B185-C5C2-407C-B159-D0B7E36A21A4}" path="zwroc_tekst_glowny.py" />
+				<child name="wpisz_tekst_glowny" key="{F01005DC-D350-4955-85A0-58BD7CF108E8}" path="wpisz_tekst_glowny.py" />
+			</folder>
+		</folder>
+		<folder name="Testy">
+			<child name="Test_1_utworz_nowy" key="{91B15593-182F-4935-827E-4BAF71031F1C}" path="Test_1_utworz_nowy.py" />
+			<child name="Test_2_edytor_tekstu_oraz_szukaj_fraze" key="{B727460F-30BE-4925-95F3-1555D95DD113}" path="Test_2_edytor_tekstu_oraz_szukaj_fraze.py" />
+			<child name="Test_3_zapisz_jako" key="{C6117036-E70F-4411-8E60-4EE6BC0C6324}" path="Test_3_zapisz_jako.py" />
+		</folder>
+	</children>
+</Root>

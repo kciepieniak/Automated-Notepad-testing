@@ -1,0 +1,5 @@
+﻿def menu_szukaj():
+  return Aliases.notepad_.Form("nowy 1 - Notepad++").MenuBar("Aplikacja").MenuItem("Szukaj")
+  
+def menu_szukaj_edytowane():
+  return Aliases.notepad_.formNowy1Notepad.MenuBar("Aplikacja").MenuItem("Szukaj")

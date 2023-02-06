@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{40F3F7FF-945F-4136-8AF3-B14DF3506EE8}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad_" Key="{1D15396D-4F09-435D-8B55-D9B461E42D4B}">
+						<TypeInfo Item0="{E015349F-2C02-4371-8698-1A508F310DAA}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad++" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="popupPlik" Key="{5D9A6E64-56DC-4690-B7C6-922797E8E4CB}">
+								<TypeInfo Item0="{D22AE71E-879D-4DC9-A806-0A422D2A699D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Popup" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Plik" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="menuitemNowyCtrlN" Key="{E4BDA326-D4AC-403F-A029-60CAD3E48E49}">
+										<TypeInfo Item0="{8C967D6C-E510-405C-811E-1BD911E7CC80}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="4E006F007700790009004300740072006C002B004E00" Type="7" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemZapiszJakoCtrlAltS" Key="{01D11BED-9727-432A-8ECD-94C790CB53BD}">
+										<Image FileName="-374165119" Left="3" Top="157" Right="488" Bottom="179" />
+										<TypeInfo Item0="{217963F4-53F5-4586-B5DF-E05EDDED7369}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="5A0061007000690073007A0020006A0061006B006F002E002E002E0009004300740072006C002B0041006C0074002B005300" Type="7" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formNowy1Notepad" Key="{4384AB41-247E-496E-9AEF-5994E4BC3E95}">
+								<Image FileName="-835892172" Left="0" Top="0" Right="1100" Bottom="692" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="Notepad++" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{41BA0CBB-ED8D-4D7F-960B-4DC3DA7D614C}">
+										<Image FileName="-835892172" Left="10" Top="102" Right="1090" Bottom="659" />
+										<TypeInfo Item0="{C7453B15-AF1F-47AA-82AF-005568F5D9D5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Scintilla" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Notepad++" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menubarAplikacja" Key="{65288F71-4FCA-41F7-A42D-2708950FA8D3}">
+										<Image FileName="89510791" Left="8" Top="31" Right="1092" Bottom="50" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuBar" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Aplikacja" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="menuitemPlik" Key="{76D89184-9123-4911-863A-A230BBBF3887}">
+												<Image FileName="89510791" Left="8" Top="31" Right="41" Bottom="50" />
+												<TypeInfo Item0="{217963F4-53F5-4586-B5DF-E05EDDED7369}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="MenuItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Plik" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dialogZapisywanieJako" Key="{C2D22BE4-F744-42C4-9E62-329A53A02DF5}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Zapisywanie jako" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{A8A4FD99-1B38-4711-816D-4AD829454232}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Okienko_Eksploratora" Key="{6BA89843-EE28-407D-AA16-BC543D203024}">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="okienko" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Okienko_Eksploratora" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{DF5A1CBA-A22C-4C16-884A-8A913458D416}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelCentrumKontroli" Key="{3D520EDB-563A-4DCB-A5CA-7CEFC951C680}" ExtendedFind="True">
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NamespaceTreeControl" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Kontrolka drzewa obszaru nazw" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="outlineKontrolkaDrzewaObszaruNaz" Key="{1A2FE00E-426F-4EB6-9F7A-58B64E46ED52}">
+																		<TypeInfo Item0="{E3AE05C3-B65E-424B-84A8-FA1F660BE759}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Outline" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Kontrolka drzewa obszaru nazw" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="outlineitemDokumentyPrzypiTe" Key="{18FD046F-8BDA-4B90-A9F1-A971A7458A98}">
+																				<Image FileName="1697713361" Left="61" Top="245" Right="127" Bottom="277" />
+																				<TypeInfo Item0="{5EAB0BD3-C027-4B15-ABAE-4F08A70FE0CA}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="OutlineItem" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Dokumenty (przypięte)" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panel2" Key="{F479A804-85D4-409E-B69F-3130FA71AE0E}">
+														<Image FileName="-250128349" Left="133" Top="426" Right="947" Bottom="449" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="comboboxNazwaPliku" Key="{7FB5B933-A7DF-4477-A397-E59C3007E290}">
+																<Image FileName="-250128349" Left="133" Top="426" Right="947" Bottom="449" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="ComboBox" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Nazwa pliku:" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="editNazwaPliku" Key="{8B59BD2B-CCAE-43E5-9285-64DDA03103E9}">
+																		<Image FileName="-250128349" Left="136" Top="429" Right="927" Bottom="446" />
+																		<TypeInfo Item0="{724D0AE5-AAB8-47E5-8DAD-16A721DDB2DA}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Edit" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Nazwa pliku:" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonZapisz" Key="{399943B4-91BE-4752-ACA8-3F3380B3E6C0}">
+										<Image FileName="-1921989260" Left="747" Top="494" Right="835" Bottom="520" />
+										<TypeInfo Item0="{5E27DAA4-C4B5-4441-9047-CBD9BD18C73C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Zapisz" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad_" Owner="{1D15396D-4F09-435D-8B55-D9B461E42D4B}">
+			<Child Name="popupPlik" Owner="{5D9A6E64-56DC-4690-B7C6-922797E8E4CB}">
+				<Child Name="menuitemNowyCtrlN" Owner="{E4BDA326-D4AC-403F-A029-60CAD3E48E49}" />
+				<Child Name="menuitemZapiszJakoCtrlAltS" Owner="{01D11BED-9727-432A-8ECD-94C790CB53BD}" />
+			</Child>
+			<Child Name="formNowy1Notepad" Owner="{4384AB41-247E-496E-9AEF-5994E4BC3E95}">
+				<Child Name="panel" Owner="{41BA0CBB-ED8D-4D7F-960B-4DC3DA7D614C}" />
+				<Child Name="menubarAplikacja" Owner="{65288F71-4FCA-41F7-A42D-2708950FA8D3}">
+					<Child Name="menuitemPlik" Owner="{76D89184-9123-4911-863A-A230BBBF3887}" />
+				</Child>
+			</Child>
+			<Child Name="dialogZapisywanieJako" Owner="{C2D22BE4-F744-42C4-9E62-329A53A02DF5}">
+				<Child Name="panel" Owner="{A8A4FD99-1B38-4711-816D-4AD829454232}">
+					<Child Name="Okienko_Eksploratora" Owner="{6BA89843-EE28-407D-AA16-BC543D203024}">
+						<Child Name="panel" Owner="{DF5A1CBA-A22C-4C16-884A-8A913458D416}">
+							<Child Name="panelCentrumKontroli" Owner="{3D520EDB-563A-4DCB-A5CA-7CEFC951C680}">
+								<Child Name="outlineKontrolkaDrzewaObszaruNaz" Owner="{1A2FE00E-426F-4EB6-9F7A-58B64E46ED52}">
+									<Child Name="outlineitemDokumentyPrzypiTe" Owner="{18FD046F-8BDA-4B90-A9F1-A971A7458A98}" />
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="panel2" Owner="{F479A804-85D4-409E-B69F-3130FA71AE0E}">
+							<Child Name="comboboxNazwaPliku" Owner="{7FB5B933-A7DF-4477-A397-E59C3007E290}">
+								<Child Name="editNazwaPliku" Owner="{8B59BD2B-CCAE-43E5-9285-64DDA03103E9}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="buttonZapisz" Owner="{399943B4-91BE-4752-ACA8-3F3380B3E6C0}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

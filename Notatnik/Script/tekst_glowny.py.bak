@@ -1,0 +1,3 @@
+﻿
+def wpisz_tekst_glowny():
+  return Aliases.notepad_.Form("nowy 1 - Notepad++").Window("Scintilla", "Notepad++", 1).SetText('Oto przykladowy tekst dla potrzeb testu automatycznego.')

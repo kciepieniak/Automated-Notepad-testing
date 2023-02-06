@@ -1,0 +1,5 @@
+﻿import op_szukaj
+
+def wpisz_fraze():
+  op_szukaj.uruchom_szukaj_szukaj() # rozwija menu Szukaj i klika w Szukaj
+  return Aliases.notepad_.Dialog("Szukaj").ComboBox("Szukany tekst:").Edit("Szukany tekst:").SetText('test') # wprowadza tekst w oknie Szukaj

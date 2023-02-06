@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44963.6369377315"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{69CFAF3E-5D64-4D50-8EF1-8E74865AE913}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_1_utworz_nowy_plik\test_szukaj]"/>
+				<Prp name="relpath" type="S" value="06_02_2023_15_17_11_420\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44963.6372306366"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AB5EB94D-E23F-4127-8023-D41D1C639BB4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_2_edytor_tekstu_oraz_szukaj_fraze\operacje_na_tekscie]"/>
+				<Prp name="relpath" type="S" value="06_02_2023_15_17_36_727\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44963.6376618866"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4B54E8FB-D4F2-4BFC-AB57-187385F19AB2}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_3_zapisz_jako\operacje_na_tekscie]"/>
+				<Prp name="relpath" type="S" value="06_02_2023_15_18_13_987\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

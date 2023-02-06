@@ -1,0 +1,4 @@
+﻿import okno_glowne
+
+def tekst_glowny():
+  return okno_glowne.okno_glowne().Click()

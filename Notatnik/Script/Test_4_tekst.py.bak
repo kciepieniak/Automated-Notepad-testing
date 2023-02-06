@@ -1,0 +1,31 @@
+﻿import menu_szukaj
+import uruchom_zamknij
+import menu_szukaj_szukaj
+import wpisz_tekst_glowny
+import menu_edycja
+
+def szukaj_frazy():
+  uruchom_zamknij.uruchom()                    #uruchamia aplikacje
+  wpisz_tekst_glowny.wpisz_tekst_glowny()      #wpisuje tekst w oknie glownym 
+  op_szukaj_szukaj.uruchom_znajdz_nastepny()   #wpisuje fraze w szukaj
+  op_szukaj_szukaj.zamknij_szukaj_szukaj()     #zamyka okno szukaj
+  wpisz_tekst_glowny.podmien_tekst_glowny()    #podmienia tekst
+  lista_edycja.edycja_zaznacz_wszystko()       
+  lista_edycja.edycja_kopiuj()
+  i=0
+  while i<3:
+    lista_edycja.edycja_wklej()
+    i+=1
+  lista_edycja.edycja_cofnij()
+  lista_edycja.edycja_zaznacz_wszystko()
+  lista_edycja.edycja_usun()
+  
+  
+  #zwroc - jak zapisywac
+  #ujednolicenie
+  #wait
+  #zapisz nazwe z aktualna date
+  #logi - co robi
+  #if wyraz w wpisanym tekscie to cos
+  
+  
